@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            grid-gap: 5px;
+            grid-auto-flow: dense;
+        }
+        .container > div > img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .container > div{
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+        .big{
+            grid-column: auto/ span 2;
+            grid-row: auto/ span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><img src="images/Images (1).jpg"></div>
+        
+        <div><img src="images/Images (2).jpg"></div>
+
+        <div><img src="images/Images (3).jpg"></div>
+
+        <div><img src="images/Images (4).jpg"></div>
+
+        <div><img src="images/Images (5).jpg"></div>
+
+        <div class="big"><img src="images/Images (6).jpg"></div>
+
+        <div><img src="images/Images (7).jpg"></div>
+
+        <div><img src="images/Images (8).jpg"></div>
+
+        <div class="big"><img src="images/Images (9).jpg"></div>
+
+        <div><img src="images/Images (10).jpg"></div>
+
+        <div><img src="images/Images (11).jpg"></div>
+
+        <div><img src="images/Images (12).jpg"></div>
+
+        <div class="big"><img src="images/Images (13).jpg"></div>
+
+        <div><img src="images/Images (14).jpg"></div>
+
+        <div class="big"><img src="images/Images (15).jpg"></div>
+
+        <div class="big"><img src="images/Images (16).jpg"></div>
+
+        <div><img src="images/Images (17).jpg"></div>
+
+        <div class="big"><img src="images/Images (18).jpg"></div>
+
+        <div><img src="images/Images (19).jpg"></div>
+
+        <div><img src="images/Images (20).jpg"></div>
+
+        <div><img src="images/Images (21).jpg"></div>
+
+        <div><img src="images/Images (22).jpg"></div>
+
+        <div><img src="images/Images (23).jpg"></div>
+
+        <div><img src="images/Images (24).jpg"></div>
+
+        <div><img src="images/Images (25).jpg"></div>
+
+        <div><img src="images/Images (26).jpg"></div>
+
+        <div class="big"><img src="images/Images (28).jpg"></div>
+
+        <div><img src="images/Images (27).jpg"></div>
+    </div>
+</body>
+</html>
