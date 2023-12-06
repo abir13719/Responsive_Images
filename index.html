@@ -4,28 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Images</title>
-    <style>
-        .container{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            grid-gap: 5px;
-            grid-auto-flow: dense;
-        }
-        .container > div > img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-        .container > div{
-            border-width: 1px;
-            border-color: black;
-            border-style: solid;
-        }
-        .big{
-            grid-column: auto/ span 2;
-            grid-row: auto/ span 2;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
